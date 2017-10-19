@@ -1,0 +1,23 @@
+main .cd-main-content.cd-index {
+	background-image: url(../img/background/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px 4px #000000;
+}
+main .cd-main-content.cd-index::before {
+    background-color: rgba(64, 137, 166, 0);
+    background-image: -webkit-linear-gradient(top, rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(64, 137, 166, 0));
+}
+main .cd-main-content.cd-index::after {
+    background-color: rgba(64, 137, 166, 0);
+    background-image: -webkit-linear-gradient(bottom, rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
+    background-image: linear-gradient(to top,rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
+}
+div.absolute {
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 8%;
+    -webkit-app-region: drag;
+} 
