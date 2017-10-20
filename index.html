@@ -11,22 +11,44 @@
 	<link rel="stylesheet" href="css/custom.css">
 	<script type="text/javascript" src="js/jquery-2.1.1.js" onload="window.$ = window.jQuery = module.exports;"></script>
 <!-- 	<script src="js/jquery-2.1.1.js"></script>
- -->	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+ -->	<script src="js/modernizr.js"></script>
+ 		<script src="js/custom.js"></script> <!-- Modernizr -->
   	
 	<title>Spartan Repair Software</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 </head>
+<script>
+			var exec = require('child_process').execFile;
 
-<!-- 
+			var wizTree =function(){
+			   console.log("wizTree() start");
+			   exec('C:/Users/Amanita/Documents/github/spartan-repair-software/WizTree64.exe', function(err, data) {  
+			        console.log(err)
+			        console.log(data.toString());                       
+			    });  
+			}
+			var clearDNS =function(){
+			   console.log("clearDNS() start");
+			   exec('C:/Users/Amanita/Documents/github/spartan-repair-software/dnsclear.bat', function(err, data) {  
+			        console.log(err)
+			        console.log(data.toString());                       
+			    });  
+			}
+			</script>
+
 <script type="text/javascript">
   var imageURLs = [
        // "img/background/1.jpg"
-       "img/background/2.jpg"
-     // , "img/background/3.jpg"
-     // , "img/background/4.jpg"
-     // , "img/background/5.jpg"
+       "img/gif.gif"
+     , "img/loopinggif.gif"
+     , "img/gif1.gif"
+     , "img/gif2.gif"
+     , "img/gif3.gif"
+     , "img/gif4.gif"
+     , "img/gif5.gif"
+     , "img/gif6.gif"
   ];
 
   function getImageTag() {
@@ -36,10 +58,10 @@
     img += '\"</style>';
     return img;
   };
-</script> -->
-<!-- <script type="text/javascript">
+</script>
+<script type="text/javascript">
   document.write(getImageTag());
-</script> -->
+</script>
 <div class="absolute">
 <body class="zee-body cd-index">
 <main>

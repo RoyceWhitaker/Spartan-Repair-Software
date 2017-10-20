@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="css/custom.css">
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/custom.js"></script> 
   	
 	<title>Start | SRS</title>
 	
@@ -19,26 +20,58 @@
 	<main>
 		<div class="cd-main-content zee-content">
 			<div>
-				<a class="cd-btn" href="index.html">&#8592; Go back</a>
+				<a class="cd-btn" href="index.html">&#8592; Start Over</a>
+<!-- 			<script>
+			var exec = require('child_process').execFile;
+
+			var wizTree =function(){
+			   console.log("wizTree() start");
+			   exec('C:/Users/Amanita/Documents/github/spartan-repair-software/WizTree64.exe', function(err, data) {  
+			        console.log(err)
+			        console.log(data.toString());                       
+			    });  
+			}
+			var clearDNS =function(){
+			   console.log("clearDNS() start");
+			   exec('C:/Users/Amanita/Documents/github/spartan-repair-software/dnsclear.bat', function(err, data) {  
+			        console.log(err)
+			        console.log(data.toString());                       
+			    });  
+			}
+			</script> -->
+			 <!-- Start WizTree: <button onclick="wizTree()">Click me</button>
+			 <br>
+			 <br>
+			 Start DNS Clear: <button onclick="clearDNS()">Click me</button> -->
+
+
+
+
+
+
 <!-- 				<a class="cd-btn" href="bible.html" data-type="page-transition">&#8592; Go to bible!</a>
 				<a class="cd-btn" href="posts.html" data-type="page-transition">&#8592; All Posts</a>
 				<a class="cd-btn" href="test.html" data-type="page-transition">&#8592; Test Page</a>
 				<a class="cd-btn" href="test2.html" data-type="page-transition">&#8592; Test Page 2</a> -->
-				<a class="cd-btn" href="template.html" data-type="page-transition">&#8592; Template</a>
-				<h1>Start - SRS</h1>
+				<h1>Spartan Repair Software</h1>
+
+				<br>
+
+				<h2>Network Tools</h2>
+				<a class="cd-btn" onclick="clearDNS()">Clear DNS &#8594;</a>
+				<br>
+				<h2>Filesystem</h2>
+				<a class="cd-btn" onclick="wizTree()">Start WizTree &#8594;</a>
 				
-				<a href="#one" style="color: #FFF;">One</a>
-				<a href="#credit" style="color: #FFF;">Credit</a>
+<!-- 				<a href="#one" style="color: #FFF;">One</a>
+				<a href="#credit" style="color: #FFF;">Credit</a> -->
 
 				<p id="one">
 					
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quas, reiciendis harum culpa dolorem illo pariatur corporis ullam mollitia non, maiores porro maxime quaerat laborum! Iusto debitis voluptates nemo tenetur, quas culpa aliquam facere eaque aut sapiente enim saepe omnis. Perspiciatis obcaecati modi laboriosam, earum aperiam quod, at cupiditate laudantium tempore a, consequatur ea officia? Explicabo, commodi recusandae libero aliquid blanditiis repudiandae natus, placeat sunt tempora velit modi quidem excepturi vitae aspernatur incidunt quisquam doloremque iusto ducimus iure facilis officiis. Iste ea, labore! At voluptates accusamus illum! Iste officia harum rem molestias quasi, distinctio dolores, accusamus asperiores sapiente debitis repellendus alias eligendi itaque fugit vel nam obcaecati reprehenderit ex saepe molestiae modi? Eaque, sit necessitatibus nesciunt quibusdam odio voluptatibus itaque libero porro quas minima veniam dolorem cum, rerum ducimus distinctio voluptas ut illo, velit, ad tempora ex? Id doloremque beatae, porro non voluptatum dicta, possimus, quidem, vel modi rem fuga consectetur quibusdam.
 				</p>
 
 				<p id="credit">
-					<b>Credit</b>
-					<br>
-					&bull; Homepage image from this <a href="https://www.facebook.com/groups/paramotor/">Facebook Group</a> by <a href="https://www.facebook.com/micahcarlson">Micah Carlson</a> at <a href="https://www.facebook.com/photo.php?fbid=10105529237535553">Facebook.com</a>
+				
 				</p>
 			</div>
 		</div>
