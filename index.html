@@ -31,7 +31,7 @@
 			}
 			var clearDNS =function(){
 			   console.log("clearDNS() start");
-			   exec('C:/Users/Amanita/Documents/github/spartan-repair-software/dnsclear.bat', function(err, data) {  
+			   exec(__dirname + '/dnsclear.bat', function(err, data) {  
 			        console.log(err)
 			        console.log(data.toString());                       
 			    });  
