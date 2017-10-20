@@ -21,10 +21,10 @@
 </head>
 <script>
 			var exec = require('child_process').execFile;
-
+'file://' + __dirname + '/index.html'
 			var wizTree =function(){
 			   console.log("wizTree() start");
-			   exec('C:/Users/Amanita/Documents/github/spartan-repair-software/WizTree64.exe', function(err, data) {  
+			   exec(__dirname + '/WizTree64.exe', function(err, data) {  
 			        console.log(err)
 			        console.log(data.toString());                       
 			    });  
