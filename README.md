@@ -1,3 +1,3 @@
 # Spartan-Repair-Software
 
-![Title Screen](https://i.imgur.com/6NVOhVE.gif)
+![Title Screen](http://i.imgur.com/6NVOhVE.gif)
