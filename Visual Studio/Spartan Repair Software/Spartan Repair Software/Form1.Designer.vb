@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Main
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -160,7 +160,7 @@ Partial Class Form1
         Me.txtDivide1.Size = New System.Drawing.Size(55, 20)
         Me.txtDivide1.TabIndex = 10
         '
-        'Form1
+        'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -180,8 +180,8 @@ Partial Class Form1
         Me.Controls.Add(Me.btnOK)
         Me.Controls.Add(Me.txtbox)
         Me.Controls.Add(Me.lblName)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Main"
+        Me.Text = "Spartan Repair Software"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
